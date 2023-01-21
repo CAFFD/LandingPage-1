@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2? family= Exo+2:wght@300 & family= Righteous & display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.20deg, #1C1C1C 20.62%, #696969 80.61%)
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+#top-img{
+  height: 70px;
+}
+
+.top-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.top-menu-item {
+  font-family: 'Exo 2', sans-serif;
+  color: #F0F8FF;
+  font-weight: 400;
+}
+
+.quite {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #FFF2E7
+}
+
+.quite-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 48px;
+}
+
+.quite-main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.quite-main-text-title {
+  font-family: 'Righteous', cursive;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.quite-main-text-subtitle {
+  font-family: 'Exo 2', sans-serif;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.quite-main-text-button {
+  background-color: #ECD6C4;
+  width: 185px;
+  height: 68px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Exo 2', sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+.quite-main-text-button:hover {
+    background-color: rgba(77, 63, 18, 0.63);
+}
+
+#quite-img {
+   height: 430px;
+}
+
+.quite-secondary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.quite-secondary-title {
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 48px;
+  font-family: 'Righteous', cursive;
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.quite-secondary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quite-secondary-list-text{
+  font-family: 'Exo 2', sans-serif;
+  color: #ECD6C4;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.low {
+  border-top: 0.4px solid #FFF2E7;
+  padding: 32px;
+}
+
+#low-img {
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+}
